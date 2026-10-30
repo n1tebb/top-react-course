@@ -1,4 +1,10 @@
 function PrimeJsxReturningDown() {
-  return <div>009. PrimeJsxReturningDown</div>;
+  return (
+    <ul>
+      <li>текст1</li>
+      <li>текст2</li>
+      <li>текст3</li>
+    </ul>
+  );
 }
 export default PrimeJsxReturningDown;
