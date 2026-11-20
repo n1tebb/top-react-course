@@ -1,4 +1,15 @@
 function PrimeConditionsReturn() {
-  return <div>027. PrimeConditionsReturn</div>;
+  let content;
+  const isAdmin = true;
+
+  if (isAdmin) {
+    content = (
+      <div>
+        <p>первый абз</p>
+        <p>второй абз</p>
+      </div>
+    );
+  }
+  return content;
 }
 export default PrimeConditionsReturn;
